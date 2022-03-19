@@ -1,0 +1,25 @@
+
+import java.util.Scanner;// importing scanner
+
+class Package {
+
+    /*
+     * package in java is group realted classes. Think of it floder in directory.
+     * package is divided in two types
+     * 1: built-in package(package from java API)
+     * 2: user defined package( creating on packages.)
+     * built-in package: java API is a library is divided in two package and classes
+     * so you can import single class or whole package.
+     * syntax : import java.util.Classname; /// it import class
+     * import java.util.*; // it import whole package
+     */
+
+    public static void main(String args[]) {
+
+        Scanner abc = new Scanner(System.in);
+        System.out.println("enter string name");
+        String a = abc.nextLine();// nextLine() is used for string.
+        System.out.println(a);
+    }
+
+}
