@@ -2,7 +2,7 @@ public class Constructor {
 
     /*
      * constructor in java is a special method that is used to initallize objects.
-     * constructor does not return type.
+     * constructor does not have return type.
      */
     public int x; // installize variable.
 
