@@ -1,0 +1,28 @@
+**** if class or abstract or interface is declared with public keyword. It must be have own file.otherwise it gives error.
+  example 1:
+      
+Abstract class Ashok {
+    public abstract void show(); // it do not have body
+
+    public void demo() {
+        System.out.println("hello");
+    }
+}
+
+public class mm extends Ashok {// In these class is declared with public. so that this class should be written in seperate class. In the same package.
+    public void show() {// In these case it gives error.
+        System.out.println("mm"); // this is abstract method . it is body develop by using subclass.
+    } // essitinal information.
+}
+
+class Abstract extends Ashok {
+
+    public void show() {
+        System.out.println("hello"); 
+    public static void main(String args[]) {
+        mm obj = new mm();
+        obj.demo();
+        obj.show();
+    }
+}
+

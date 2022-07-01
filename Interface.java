@@ -1,12 +1,12 @@
-import java.util.*;
+//import java.util.*;
 
-interface Ashok {
-    public void method(); // its is abstract method;
+interface Homelander {
+    void method(); // its is abstract method;
 
-    public void show(); // it is abstract method
+    void show(); // it is abstract method
 }
 
-class vinesh implements Ashok {
+class vinesh implements Homelander {
     public void method() {
         System.out.println("hello");
     }

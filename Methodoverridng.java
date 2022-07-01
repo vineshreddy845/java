@@ -4,6 +4,12 @@ class Ashok {
     }
 }
 
+class soldierboy extends Ashok {
+    public void show() {
+        System.out.println("Aryan");
+    }
+}
+
 public class Methodoverridng extends Ashok {
     public void show() {
         System.out.println("vinni");

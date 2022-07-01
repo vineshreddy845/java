@@ -6,6 +6,12 @@ abstract class Ashok {
     }
 }
 
+class mm extends Ashok {
+    public void show() {
+        System.out.println("mm"); // this is abstract method . it is body develop by using subclass.
+    } // essitinal information.
+}
+
 class Abstract extends Ashok {
 
     public void show() {
@@ -23,7 +29,7 @@ class Abstract extends Ashok {
      * 
      */
     public static void main(String args[]) {
-        Abstract obj = new Abstract();
+        mm obj = new mm();
         obj.demo();
         obj.show();
     }
