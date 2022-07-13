@@ -1,4 +1,4 @@
-class Ashok {
+/*class Ashok {
     public void Acres() {
         System.out.println("Acres");
     }
@@ -16,7 +16,7 @@ class Ashok {
  * }
  */
 
-public class Singleinheritance extends Ashok {
+/*public class Singleinheritance extends Ashok {
     public static void main(String args[]) {
         Singleinheritance obj = new Singleinheritance();
         obj.Acres();
@@ -25,4 +25,4 @@ public class Singleinheritance extends Ashok {
 
     }
 
-}
+}*/
