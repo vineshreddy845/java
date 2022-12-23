@@ -1,5 +1,29 @@
 import java.util.ArrayList;
 
+/*java collection has so many classes .
+ * collection, List  is an interface we can't create object .where it implementatio can create. implementation
+ * class is ArrayList
+ * syntax: List name = new ArrayList();
+ * Synatx:Stack name1 = new Treeset(); etc,
+ * collection can store any type of data.example string,int float.
+ * List list = new ArrayList();
+ * list.add(1);
+ * list.add("uu");
+ * list.add(1.2);
+ * but if you want to use certain type of data.we have to use generics.
+ * syntax: List<datatype> list = new ArrayList<>();
+ * example:
+ *   List<Integer> list = new ArrayList<>();
+ * list.add(1);
+ * list.add(2);
+ * difference between list , stack and maping.
+ * List can have duplicate data. we can also add data wherver we want using index: list.add("indexnumber","data")
+ * Stack can't have duplicate data. Data stored in stack in random .
+ * map can have duplicate data .it store data in <key,value> pair.
+ * example:
+ * Map<Integer,String> wonder = new HashMap<>();
+ */
+
 public class Collection {
 
     public static void main(String args[]) {
